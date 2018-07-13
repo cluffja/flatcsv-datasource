@@ -1,4 +1,3 @@
-import _ from 'lodash'
 import './css/query-editor.css!'
 
 export class PiWebApiConfigCtrl {

@@ -1,12 +1,12 @@
 {
-  "name": "OSIsoft-PI",
-  "id": "gridprotectionalliance-osisoftpi-datasource",
+  "name": "FlatCSV",
+  "id": "flatcsv-datasource",
   "type": "datasource",
 
   "staticRoot": ".",
 
   "partials": {
-    "config": "public/app/plugins/datasource/gridprotectionalliance-osisoftpi-datasource/partials/config.html"
+    "config": "public/app/plugins/datasource/flatcsv-datasource/partials/config.html"
   },
 
   "metrics": true,
@@ -14,23 +14,22 @@
   "alerting": true,
   
   "info": {
-    "description": "Datasource plugin for OSIsoft PI Web API",
+    "description": "Datasource plugin for local CSV files",
     "author": {
-      "name": "Grid Protection Alliance",
-      "url": "https://github.com/GridProtectionAlliance/osisoftpi-grafana"
+      "name": "Joshua Cluff",
+      "url": "https://github.com/cluffja/flatcsv-datasource"
     },
-    "keywords": ["OSIsoft", "PI", "Historian", "GPA"],
+    "keywords": ["CSV", "Files", "Local"],
     "logos": {
       "small": "img/osi-pi.png",
       "large": "img/osi-pi.png"
     },
     "links": [
-      {"name": "GitHub", "url": "https://github.com/GridProtectionAlliance/osisoftpi-grafana"},
-      {"name": "MIT License", "url": "https://github.com/GridProtectionAlliance/osisoftpi-grafana/blob/master/LICENSE"},
-      {"name": "PI System", "url": "http://www.osisoft.com/corporate/connected-services/pisystem.html"}
+      {"name": "GitHub", "url": "https://github.com/cluffja/flatcsv-datasource"},
+      {"name": "MIT License", "url": "https://github.com/cluffja/flatcsv-datasource/blob/master/LICENSE"}
     ],
-    "version": "1.0.3",
-    "updated": "2017-12-13"
+    "version": "1.0.0",
+    "updated": "2018-7-11"
   },
 
   "dependencies": {

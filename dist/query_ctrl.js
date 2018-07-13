@@ -111,9 +111,9 @@ System.register(['angular', 'lodash', 'app/plugins/sdk', './css/query-editor.css
           'Previous', // use previous value if available
           '0'];
 
-          _this.target.summary = _this.target.summary || { types: [], basis: '', interval: '', nodata: 'Null' };
+          _this.target.summary = _this.target.summary || { types: [], basis: 'EventWeighted', interval: '', nodata: 'Null' };
           _this.target.summary.types = _this.target.summary.types || [];
-          _this.target.summary.basis = _this.target.summary.basis || '';
+          _this.target.summary.basis = _this.target.summary.basis;
           _this.target.summary.nodata = _this.target.summary.nodata || 'Null';
           _this.target.summary.interval = _this.target.summary.interval || '';
 

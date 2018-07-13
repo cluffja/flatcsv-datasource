@@ -45,7 +45,7 @@ module.exports = function (grunt) {
     babel: {
       options: {
         sourceMap: true,
-        moduleRoot: 'gridprotectionalliance-osisoftpi-datasource',
+        moduleRoot: 'flatcsv-datasource',
         presets: ['es2015']
       },
       dist: {
